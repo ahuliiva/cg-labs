@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<scene>
+   <camera>
+      <pos x="24.000" y="1.000" z="-1.000"/>
+      <up  x="0.000" y="0.000" z="0.000"/>
+      <look_at x="0.000" y="0.000" z="0.000"/>
+      <fov_x angle="0.000"/>
+      <fov_y angle="0.000"/>
+      <dist_to_near_plane dist="0.000"/>
+   </camera>
+   <light>
+      <pos x="0.000" y="0.000" z="0.000"/>
+      <dir x="0.000" y="0.000" z="0.000"/>
+      <ambient_emission  x="0.000" y="0.000" z="0.000"/>
+      <diffuse_emission  x="0.000" y="0.000" z="0.000"/>
+      <specular_emission x="0.000" y="0.000" z="0.000"/>
+   </light>
+   <object>
+      <center x="0.000" y="0.000" z="0.000"/>
+      <material>
+         <ambient  x="0.000" y="0.000" z="0.000"/>
+         <diffuse  x="0.000" y="0.000" z="0.000"/>
+         <specular x="0.000" y="0.000" z="0.000"/>
+         <specular_power power="0.000"/>
+      </material>
+      <plane>
+         <D d="0.000"/>
+         <normal n="0.000"/>
+      </plane>
+      <triangle>
+         <pos  x="0.000" y="0.000" z="0.000"/>
+         <pos  x="0.000" y="0.000" z="0.000"/>
+         <pos  x="0.000" y="0.000" z="0.000"/>
+      </triangle>
+      <model file_name="model.obj"/>
+      <sphere>
+         <radius r="0.000"/>
+      </sphere>
+      <cylinder>
+         <radius r="0.000"/>
+         <height h="0.000"/>
+      </cylinder>
+      <thorus>
+         <radius_external r="0.000"/>
+         <radius_internal r="0.000"/>
+      </thorus>
+      
+      <refraction_coeff theta="0.000"/>
+      <illumination_factors illumination_factor="0.000" reflection_factor="0.000" refraction_factor="0.000"/>
+   </object>
+</scene>
